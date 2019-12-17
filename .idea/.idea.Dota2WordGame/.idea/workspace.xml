@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbe7f10e-71a5-406d-89fe-e0614036fa2b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Game/GameManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3440">
+              <caret line="568" column="57" selection-start-line="568" selection-start-column="43" selection-end-line="568" selection-end-column="57" />
+              <folding>
+                <marker date="1576362566777" expanded="false" signature="6:115" ph="..." />
+                <marker date="1576362566777" expanded="true" signature="149:26377" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="153:237" ph="/// Holds information about each category in the game ... " />
+                <marker date="1576362566777" expanded="true" signature="287:658" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="661:743" ph="/// Holds information about each level in the game. ... " />
+                <marker date="1576362566777" expanded="true" signature="790:828" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="889:26375" ph="{...}" />
+                <marker date="1576362566777" expanded="false" signature="895:2032" ph="Data Classes" />
+                <marker date="1576362566777" expanded="true" signature="919:1019" ph="/// Holds infomation about the state of a board that is being play. ... " />
+                <marker date="1576362566777" expanded="true" signature="1045:1908" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="1074:1128" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="1960:2018" ph="{...}" />
+                <marker date="1576362566777" expanded="false" signature="2036:3583" ph="Inspector Variables" />
+                <marker date="1576362566777" expanded="false" signature="3587:3721" ph="Member Variables" />
+                <marker date="1576362566777" expanded="false" signature="3725:5375" ph="Properties" />
+                <marker date="1576362566777" expanded="true" signature="4630:4878" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="4641:4874" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="4789:4842" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="4917:5361" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="4928:5310" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="5021:5276" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="5318:5357" ph="{...}" />
+                <marker date="1576362566777" expanded="false" signature="5379:6673" ph="Unity Methods" />
+                <marker date="1576362566777" expanded="true" signature="5435:6467" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="5698:5915" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="6072:6223" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="6126:6218" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="6240:6302" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="6491:6659" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="6526:6655" ph="{...}" />
+                <marker date="1576362566777" expanded="false" signature="6677:11299" ph="Public Methods" />
+                <marker date="1576362566777" expanded="true" signature="6758:7592" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="7073:7172" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="7287:7364" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="7596:7657" ph="/// Starts the daily puzzle. ... " />
+                <marker date="1576362566777" expanded="true" signature="7690:8374" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="7726:7748" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="7880:8286" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="7923:8158" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="8378:8461" ph="/// Displays one letter in the WordGrid as a hint. ... " />
+                <marker date="1576362566777" expanded="true" signature="8493:9317" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="8550:9313" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="8960:9308" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="9321:9463" ph="/// Resets the board so all the letters are back on the GameBoard and the WordGrid is only showing the hints. ... " />
+                <marker date="1576362566777" expanded="true" signature="9492:10077" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="9529:10073" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="9655:9712" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="9835:10009" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="9912:10003" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="10081:10162" ph="/// Adds one hint to the current number of hints ... " />
+                <marker date="1576362566777" expanded="true" signature="10186:10224" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="10228:10322" ph="/// Returns true if the given category and level is completed ... " />
+                <marker date="1576362566777" expanded="true" signature="10396:10556" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="10560:10658" ph="/// Returns the number of completed levels for the given category ... " />
+                <marker date="1576362566777" expanded="true" signature="10721:10958" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="10821:10918" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="10869:10913" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="10962:11053" ph="/// Returns the CategoryInfo with the given category name. ... " />
+                <marker date="1576362566777" expanded="true" signature="11112:11285" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="11165:11264" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="11217:11259" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="11303:26372" ph="Private Methods" />
+                <marker date="1576362566777" expanded="true" signature="11330:11485" ph="/// Called when an IAP purchase id made, checks if the purchase was any of the hint infos and if so increase Curr ... " />
+                <marker date="1576362566777" expanded="true" signature="11537:11721" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="11589:11717" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="11642:11712" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="11725:11797" ph="/// Called when the player finds a word ... " />
+                <marker date="1576362566777" expanded="true" signature="11886:12961" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="12056:12153" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="12253:12362" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="12301:12357" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="12586:12825" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="12761:12818" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="12833:12957" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="12915:12950" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="12965:13072" ph="/// Sets up the GameBoard and WordGrid using the current active BoardState ... " />
+                <marker date="1576362566777" expanded="true" signature="13106:13378" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="13143:13257" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="13382:13498" ph="/// Creates a new BoardState object using the values defined in the given WordBoard ... " />
+                <marker date="1576362566777" expanded="true" signature="13560:14376" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="14096:14349" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="14380:14511" ph="/// Called when the current active board is completed by the player (ie. they found the last word) ... " />
+                <marker date="1576362566777" expanded="true" signature="14542:15998" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="14790:15189" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="15197:15412" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="15494:15519" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="16038:16988" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="16321:16840" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="16848:16934" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="17040:17856" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="17142:17643" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="17186:17638" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="17443:17629" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="17729:17852" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="17860:17911" ph="/// Saves the game ... " />
+                <marker date="1576362566777" expanded="true" signature="17933:19139" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="18543:18619" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="18835:18916" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="18860:18911" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="19143:19199" ph="/// Loads the save game ... " />
+                <marker date="1576362566777" expanded="true" signature="19225:20775" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="19263:20753" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="19714:19869" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="20297:20355" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="20364:20498" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="20659:20730" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="20860:22460" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="21242:21291" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="21469:21528" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="21719:21783" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="21980:22052" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="22258:22388" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="22522:24288" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="22914:22970" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="23171:23238" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="23455:23543" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="23749:23840" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="24058:24261" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="24378:25164" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="24415:24442" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="24502:25143" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="24602:24629" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="24786:25090" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="24946:25084" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="25026:25077" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="25107:25138" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="25234:26358" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="25273:25300" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="25897:26307" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="25942:26302" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="26186:26296" ph="{...}" />
+                <marker date="1576362566777" expanded="true" signature="26253:26289" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/LevelListItem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+              <folding>
+                <marker date="1576367639047" expanded="false" signature="6:100" ph="..." />
+                <marker date="1576367639047" expanded="true" signature="134:1441" ph="{...}" />
+                <marker date="1576367639047" expanded="true" signature="180:1439" ph="{...}" />
+                <marker date="1576367639047" expanded="false" signature="186:276" ph="Enums" />
+                <marker date="1576367639047" expanded="true" signature="219:262" ph="{...}" />
+                <marker date="1576367639047" expanded="false" signature="280:520" ph="Inspector Variables" />
+                <marker date="1576367639047" expanded="false" signature="526:648" ph="Member Variables" />
+                <marker date="1576367639047" expanded="true" signature="654:1436" ph="Public Methods" />
+                <marker date="1576367639047" expanded="true" signature="753:1132" ph="{...}" />
+                <marker date="1576367639047" expanded="true" signature="1159:1420" ph="{...}" />
+                <marker date="1576367639047" expanded="true" signature="1194:1416" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Framework/IAPController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="159" column="97" selection-start-line="159" selection-start-column="73" selection-end-line="159" selection-end-column="97" />
+              <folding>
+                <marker date="1576370432287" expanded="false" signature="6:186" ph="..." />
+                <marker date="1576370432287" expanded="true" signature="227:8358" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="334:8356" ph="{...}" />
+                <marker date="1576370432287" expanded="false" signature="340:534" ph="Classes" />
+                <marker date="1576370432287" expanded="true" signature="408:520" ph="{...}" />
+                <marker date="1576370432287" expanded="false" signature="538:1068" ph="Inspector Variables" />
+                <marker date="1576370432287" expanded="false" signature="1072:1273" ph="Member Variables" />
+                <marker date="1576370432287" expanded="false" signature="1277:3396" ph="Properties" />
+                <marker date="1576370432287" expanded="true" signature="1299:1383" ph="/// Returns true id IAP is enabled, false otherwise ... " />
+                <marker date="1576370432287" expanded="true" signature="1414:1567" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="1425:1563" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="1571:1638" ph="/// Gets the remove ads product id ... " />
+                <marker date="1576370432287" expanded="true" signature="1716:1847" ph="/// Callback this is invoked when a product is purchased, passes the product id that was purchased ... " />
+                <marker date="1576370432287" expanded="true" signature="1915:1986" ph="/// Returns true if IAP is initialized ... " />
+                <marker date="1576370432287" expanded="true" signature="2015:2156" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="2160:2246" ph="/// Gets a list of all product (including remove ads) ... " />
+                <marker date="1576370432287" expanded="true" signature="2283:2765" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="2294:2761" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="2421:2734" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="2769:2884" ph="/// String of non-consumable product ids that have been purchase seperated by tabs ... " />
+                <marker date="1576370432287" expanded="true" signature="2927:3085" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="3089:3185" ph="/// List of non-consumable product ids that have been purchased ... " />
+                <marker date="1576370432287" expanded="true" signature="3228:3382" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="3400:4275" ph="Unity Methods" />
+                <marker date="1576370432287" expanded="true" signature="3445:4261" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="4066:4200" ph="{...}" />
+                <marker date="1576370432287" expanded="false" signature="4279:5633" ph="Public Methods" />
+                <marker date="1576370432287" expanded="true" signature="4305:4478" ph="/// Returns true if the given product id has been purchased, only for non-consumable products, consumable product ... " />
+                <marker date="1576370432287" expanded="true" signature="4529:4588" ph="{...}" />
+                <marker date="1576370432287" expanded="false" signature="4592:5619" ph="IStoreListener" />
+                <marker date="1576370432287" expanded="true" signature="4719:4878" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="4955:5039" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="5125:5255" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="5330:5596" ph="{...}" />
+                <marker date="1576370432287" expanded="false" signature="5637:8353" ph="Private Methods" />
+                <marker date="1576370432287" expanded="true" signature="5711:6695" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="5763:5814" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="5989:6691" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="6740:7067" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="6766:7063" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="6998:7058" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="7080:7165" ph="/// Restores the purchases if platform is iOS or OSX ... " />
+                <marker date="1576370432287" expanded="true" signature="7199:7471" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="7336:7467" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="7539:8339" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="7563:7828" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="7726:7778" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="7934:7979" ph="{...}" />
+                <marker date="1576370432287" expanded="true" signature="7984:8168" ph="/* If something other than the remove ads product was purchased and anyPurchaseRemovesAds is true call ... */" />
+                <marker date="1576370432287" expanded="true" signature="8276:8335" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenMain.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1424">
+              <caret line="108" column="82" selection-start-line="108" selection-start-column="64" selection-end-line="108" selection-end-column="82" />
+              <folding>
+                <marker date="1576352224345" expanded="false" signature="6:66" ph="..." />
+                <marker date="1576352224345" expanded="true" signature="100:3406" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="140:3404" ph="{...}" />
+                <marker date="1576352224345" expanded="false" signature="146:417" ph="Inspector Variables" />
+                <marker date="1576352224345" expanded="false" signature="421:536" ph="Member Variables" />
+                <marker date="1576352224345" expanded="true" signature="540:3401" ph="Public Methods" />
+                <marker date="1576352224345" expanded="true" signature="609:2964" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="880:1262" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="1087:1257" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="1546:2479" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="1663:2189" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="1799:1829" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="1891:2123" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="1965:2116" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="2156:2183" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="2315:2431" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="2487:2671" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="3005:3116" ph="{...}" />
+                <marker date="1576352224345" expanded="true" signature="3157:3387" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1538259209000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538259209000" expanded="true" signature="112:5545" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="188:5543" ph="{...}" />
+                <marker date="1538259209000" expanded="false" signature="194:340" ph="Inspector Variables" />
+                <marker date="1538259209000" expanded="false" signature="344:816" ph="Member Variables" />
+                <marker date="1538259209000" expanded="false" signature="820:1227" ph="Unity Methods" />
+                <marker date="1538259209000" expanded="true" signature="865:1213" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="956:1121" ph="{...}" />
+                <marker date="1538259209000" expanded="false" signature="1231:2834" ph="Public Methods" />
+                <marker date="1538259209000" expanded="true" signature="1257:1844" ph="/// Shows the screen with the specified id. ... " />
+                <marker date="1538259209000" expanded="true" signature="2049:2453" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="2073:2095" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="2164:2449" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="2330:2444" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="2457:2542" ph="/// Hides the UI screen that was shown as an overlay ... " />
+                <marker date="1538259209000" expanded="true" signature="2656:2820" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="2769:2816" ph="{...}" />
+                <marker date="1538259209000" expanded="false" signature="2838:5540" ph="Private Methods" />
+                <marker date="1538259209000" expanded="true" signature="3006:3518" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="3035:3057" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="3407:3512" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="3471:3507" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="3650:4010" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="3679:3701" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="4191:5251" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="4304:4576" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="4471:4571" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="4584:4685" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="4746:5247" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="4938:5053" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="5062:5242" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="5296:5526" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="5345:5424" ph="{...}" />
+                <marker date="1538259209000" expanded="true" signature="5381:5419" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/CategoryListItem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+              <folding>
+                <marker date="1576357566495" expanded="false" signature="6:100" ph="..." />
+                <marker date="1576357566495" expanded="true" signature="134:1272" ph="{...}" />
+                <marker date="1576357566495" expanded="true" signature="183:1270" ph="{...}" />
+                <marker date="1576357566495" expanded="false" signature="189:412" ph="Inspector Variables" />
+                <marker date="1576357566495" expanded="false" signature="416:486" ph="Member Variables" />
+                <marker date="1576357566495" expanded="true" signature="490:1267" ph="Public Methods" />
+                <marker date="1576357566495" expanded="true" signature="560:1036" ph="{...}" />
+                <marker date="1576357566495" expanded="true" signature="1061:1253" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenCategoryLevels.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <marker date="1576352224400" expanded="false" signature="6:44" ph="..." />
+                <marker date="1576352224400" expanded="true" signature="78:1535" ph="{...}" />
+                <marker date="1576352224400" expanded="true" signature="128:1533" ph="{...}" />
+                <marker date="1576352224400" expanded="false" signature="134:309" ph="Inspector Variables" />
+                <marker date="1576352224400" expanded="false" signature="315:400" ph="Member Variables" />
+                <marker date="1576352224400" expanded="true" signature="406:1530" ph="Public Methods" />
+                <marker date="1576352224400" expanded="true" signature="467:595" ph="{...}" />
+                <marker date="1576352224400" expanded="true" signature="644:1362" ph="{...}" />
+                <marker date="1576352224400" expanded="true" signature="896:1358" ph="{...}" />
+                <marker date="1576352224400" expanded="true" signature="1080:1156" ph="{...}" />
+                <marker date="1576352224400" expanded="true" signature="1395:1514" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Editor/GameManagerEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1760">
+              <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+              <folding>
+                <marker date="1538259273000" expanded="false" signature="6:97" ph="..." />
+                <marker date="1538259273000" expanded="true" signature="131:7366" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="211:7364" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="217:7361" ph="Methods" />
+                <marker date="1538259273000" expanded="true" signature="273:1284" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="997:1089" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="1152:1203" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="1320:4465" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="1627:2122" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="2058:2117" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="2379:4461" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="2672:4422" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="3156:3242" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="3413:4416" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="3771:4016" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="3920:4008" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="4537:4826" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="4903:6070" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="4982:6066" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="5243:6031" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="5701:5784" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="5910:6025" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="6135:6910" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="6497:6906" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="6805:6863" ph="{...}" />
+                <marker date="1538259273000" expanded="true" signature="6950:7347" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Game/ProgressRing.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <marker date="1538259208000" expanded="false" signature="6:66" ph="..." />
+                <marker date="1538259208000" expanded="true" signature="100:1114" ph="{...}" />
+                <marker date="1538259208000" expanded="true" signature="145:1112" ph="{...}" />
+                <marker date="1538259208000" expanded="false" signature="151:346" ph="Inspector Variables" />
+                <marker date="1538259208000" expanded="false" signature="350:387" ph="Member Variables" />
+                <marker date="1538259208000" expanded="false" signature="391:422" ph="Properties" />
+                <marker date="1538259208000" expanded="false" signature="426:513" ph="Unity Methods" />
+                <marker date="1538259208000" expanded="true" signature="471:499" ph="{...}" />
+                <marker date="1538259208000" expanded="true" signature="517:1027" ph="Public Methods" />
+                <marker date="1538259208000" expanded="true" signature="581:1013" ph="{...}" />
+                <marker date="1538259208000" expanded="false" signature="1031:1069" ph="Protected Methods" />
+                <marker date="1538259208000" expanded="false" signature="1073:1109" ph="Private Methods" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>description</find>
+      <find>saved</find>
+      <find>numberOfCompletedLevels</find>
+      <find>SavedBoardStates</find>
+      <find>CompletedLevels</find>
+      <find>boardId</find>
+      <find>GetCompletedLevelCount</find>
+      <find>StartLevel</find>
+      <find>Type</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Game/ProgressRing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Framework/AdsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/CategoryListItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/LevelListItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Game/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenCategoryLevels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Framework/IAPController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Editor/GameManagerEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/WordGame/Scripts/UI/CategoryListItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/WordGame/Scripts/Game/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/WordGame/Scripts/UI/LevelListItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/WordGame/Scripts/Framework/IAPController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="WordGame" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="WordGame" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="WordGame" type="1045f7f1:UnityExplorerNode" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="UI" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbe7f10e-71a5-406d-89fe-e0614036fa2b" name="Default Changelist" comment="" />
+      <created>1576217338849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576217338849</updated>
+      <workItem from="1576217367070" duration="70000" />
+      <workItem from="1576352093522" duration="181000" />
+      <workItem from="1576357346079" duration="4317000" />
+      <workItem from="1576467398006" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4584000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Unity" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Framework/AdsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1538259227000" expanded="true" signature="6:115" ph="..." />
+            <marker date="1538259227000" expanded="true" signature="299:10389" ph="{...}" />
+            <marker date="1538259227000" expanded="false" signature="305:517" ph="Enums" />
+            <marker date="1538259227000" expanded="true" signature="348:374" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="406:436" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="464:503" ph="{...}" />
+            <marker date="1538259227000" expanded="false" signature="521:1090" ph="Inspector Variables" />
+            <marker date="1538259227000" expanded="false" signature="1094:1440" ph="Member Variables" />
+            <marker date="1538259227000" expanded="false" signature="1444:2804" ph="Properties" />
+            <marker date="1538259227000" expanded="true" signature="1500:1741" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="1511:1737" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="2651:2790" ph="{...}" />
+            <marker date="1538259227000" expanded="false" signature="2808:3569" ph="Unity Methods" />
+            <marker date="1538259227000" expanded="true" signature="2853:3355" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="2949:3226" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="3269:3351" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="3383:3555" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="3469:3551" ph="{...}" />
+            <marker date="1538259227000" expanded="false" signature="3573:5749" ph="Public Methods" />
+            <marker date="1538259227000" expanded="true" signature="3611:3693" ph="/// Shows the banner ad if banner ads are enabled ... " />
+            <marker date="1538259227000" expanded="true" signature="3751:4194" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="3782:4190" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="3815:4185" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="3897:3934" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="3944:3982" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4076:4116" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4126:4167" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4198:4280" ph="/// Hides the banner ad is banner ads are enabled ... " />
+            <marker date="1538259227000" expanded="true" signature="4309:4485" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4340:4481" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4372:4407" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4438:4476" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4498:4639" ph="/// Shows the interstital ad but only it it's been loaded. Returns true if the ad is shown, false otherwise. ... " />
+            <marker date="1538259227000" expanded="true" signature="4705:5735" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4768:5711" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="4803:5706" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="5561:5675" ph="{...}" />
+            <marker date="1538259227000" expanded="false" signature="5753:10386" ph="Private Methods" />
+            <marker date="1538259227000" expanded="true" signature="5780:5877" ph="/// Called by the IAPController when the player makes a purchase ... " />
+            <marker date="1538259227000" expanded="true" signature="5932:6218" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="6054:6214" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="6176:6209" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="6454:6516" ph="/// Loads the interstitial ad ... " />
+            <marker date="1538259227000" expanded="true" signature="6552:6639" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="6643:6739" ph="/// Loads the top banner if it is not already loaded or loading ... " />
+            <marker date="1538259227000" expanded="true" signature="6770:7298" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="6817:7294" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="6849:7140" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="7302:7401" ph="/// Loads the bottom banner if it is not already loaded or loading ... " />
+            <marker date="1538259227000" expanded="true" signature="7435:7997" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="7485:7993" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="7520:7833" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="8001:8146" ph="/// Creates a new Ad request to be used by banners and interstitial ads ... " />
+            <marker date="1538259227000" expanded="true" signature="8184:8345" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="8349:8413" ph="/// Destroys the ad mob objects ... " />
+            <marker date="1538259227000" expanded="true" signature="8450:8702" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="8480:8537" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="8567:8630" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="8660:8698" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="8706:8781" ph="/// Invoked when the top banner has loaded ... " />
+            <marker date="1538259227000" expanded="true" signature="8845:8929" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="8933:9011" ph="/// Invoked when the top banner fails to load ... " />
+            <marker date="1538259227000" expanded="true" signature="9092:9235" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="9239:9317" ph="/// Invoked when the bottom banner has loaded ... " />
+            <marker date="1538259227000" expanded="true" signature="9384:9474" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="9478:9559" ph="/// Invoked when the bottom banner fails to load ... " />
+            <marker date="1538259227000" expanded="true" signature="9643:9792" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="9796:9876" ph="/// Invoked when the interstitial ad has loaded ... " />
+            <marker date="1538259227000" expanded="true" signature="9945:9987" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="9991:10070" ph="/// Invoked when the interstitial ad is closed ... " />
+            <marker date="1538259227000" expanded="true" signature="10139:10363" ph="{...}" />
+            <marker date="1538259227000" expanded="true" signature="10313:10359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Resources/WordGameBoardFiles/Test_0.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Packages/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Game/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3440">
+          <caret line="568" column="57" selection-start-line="568" selection-start-column="43" selection-end-line="568" selection-end-column="57" />
+          <folding>
+            <marker date="1576362566777" expanded="false" signature="6:115" ph="..." />
+            <marker date="1576362566777" expanded="true" signature="149:26377" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="153:237" ph="/// Holds information about each category in the game ... " />
+            <marker date="1576362566777" expanded="true" signature="287:658" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="661:743" ph="/// Holds information about each level in the game. ... " />
+            <marker date="1576362566777" expanded="true" signature="790:828" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="889:26375" ph="{...}" />
+            <marker date="1576362566777" expanded="false" signature="895:2032" ph="Data Classes" />
+            <marker date="1576362566777" expanded="true" signature="919:1019" ph="/// Holds infomation about the state of a board that is being play. ... " />
+            <marker date="1576362566777" expanded="true" signature="1045:1908" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="1074:1128" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="1960:2018" ph="{...}" />
+            <marker date="1576362566777" expanded="false" signature="2036:3583" ph="Inspector Variables" />
+            <marker date="1576362566777" expanded="false" signature="3587:3721" ph="Member Variables" />
+            <marker date="1576362566777" expanded="false" signature="3725:5375" ph="Properties" />
+            <marker date="1576362566777" expanded="true" signature="4630:4878" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="4641:4874" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="4789:4842" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="4917:5361" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="4928:5310" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="5021:5276" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="5318:5357" ph="{...}" />
+            <marker date="1576362566777" expanded="false" signature="5379:6673" ph="Unity Methods" />
+            <marker date="1576362566777" expanded="true" signature="5435:6467" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="5698:5915" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="6072:6223" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="6126:6218" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="6240:6302" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="6491:6659" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="6526:6655" ph="{...}" />
+            <marker date="1576362566777" expanded="false" signature="6677:11299" ph="Public Methods" />
+            <marker date="1576362566777" expanded="true" signature="6758:7592" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="7073:7172" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="7287:7364" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="7596:7657" ph="/// Starts the daily puzzle. ... " />
+            <marker date="1576362566777" expanded="true" signature="7690:8374" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="7726:7748" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="7880:8286" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="7923:8158" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="8378:8461" ph="/// Displays one letter in the WordGrid as a hint. ... " />
+            <marker date="1576362566777" expanded="true" signature="8493:9317" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="8550:9313" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="8960:9308" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="9321:9463" ph="/// Resets the board so all the letters are back on the GameBoard and the WordGrid is only showing the hints. ... " />
+            <marker date="1576362566777" expanded="true" signature="9492:10077" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="9529:10073" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="9655:9712" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="9835:10009" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="9912:10003" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="10081:10162" ph="/// Adds one hint to the current number of hints ... " />
+            <marker date="1576362566777" expanded="true" signature="10186:10224" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="10228:10322" ph="/// Returns true if the given category and level is completed ... " />
+            <marker date="1576362566777" expanded="true" signature="10396:10556" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="10560:10658" ph="/// Returns the number of completed levels for the given category ... " />
+            <marker date="1576362566777" expanded="true" signature="10721:10958" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="10821:10918" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="10869:10913" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="10962:11053" ph="/// Returns the CategoryInfo with the given category name. ... " />
+            <marker date="1576362566777" expanded="true" signature="11112:11285" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="11165:11264" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="11217:11259" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="11303:26372" ph="Private Methods" />
+            <marker date="1576362566777" expanded="true" signature="11330:11485" ph="/// Called when an IAP purchase id made, checks if the purchase was any of the hint infos and if so increase Curr ... " />
+            <marker date="1576362566777" expanded="true" signature="11537:11721" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="11589:11717" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="11642:11712" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="11725:11797" ph="/// Called when the player finds a word ... " />
+            <marker date="1576362566777" expanded="true" signature="11886:12961" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="12056:12153" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="12253:12362" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="12301:12357" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="12586:12825" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="12761:12818" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="12833:12957" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="12915:12950" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="12965:13072" ph="/// Sets up the GameBoard and WordGrid using the current active BoardState ... " />
+            <marker date="1576362566777" expanded="true" signature="13106:13378" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="13143:13257" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="13382:13498" ph="/// Creates a new BoardState object using the values defined in the given WordBoard ... " />
+            <marker date="1576362566777" expanded="true" signature="13560:14376" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="14096:14349" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="14380:14511" ph="/// Called when the current active board is completed by the player (ie. they found the last word) ... " />
+            <marker date="1576362566777" expanded="true" signature="14542:15998" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="14790:15189" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="15197:15412" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="15494:15519" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="16038:16988" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="16321:16840" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="16848:16934" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="17040:17856" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="17142:17643" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="17186:17638" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="17443:17629" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="17729:17852" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="17860:17911" ph="/// Saves the game ... " />
+            <marker date="1576362566777" expanded="true" signature="17933:19139" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="18543:18619" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="18835:18916" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="18860:18911" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="19143:19199" ph="/// Loads the save game ... " />
+            <marker date="1576362566777" expanded="true" signature="19225:20775" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="19263:20753" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="19714:19869" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="20297:20355" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="20364:20498" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="20659:20730" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="20860:22460" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="21242:21291" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="21469:21528" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="21719:21783" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="21980:22052" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="22258:22388" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="22522:24288" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="22914:22970" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="23171:23238" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="23455:23543" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="23749:23840" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="24058:24261" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="24378:25164" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="24415:24442" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="24502:25143" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="24602:24629" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="24786:25090" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="24946:25084" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="25026:25077" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="25107:25138" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="25234:26358" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="25273:25300" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="25897:26307" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="25942:26302" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="26186:26296" ph="{...}" />
+            <marker date="1576362566777" expanded="true" signature="26253:26289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/LevelListItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+          <folding>
+            <marker date="1576367639047" expanded="false" signature="6:100" ph="..." />
+            <marker date="1576367639047" expanded="true" signature="134:1441" ph="{...}" />
+            <marker date="1576367639047" expanded="true" signature="180:1439" ph="{...}" />
+            <marker date="1576367639047" expanded="false" signature="186:276" ph="Enums" />
+            <marker date="1576367639047" expanded="true" signature="219:262" ph="{...}" />
+            <marker date="1576367639047" expanded="false" signature="280:520" ph="Inspector Variables" />
+            <marker date="1576367639047" expanded="false" signature="526:648" ph="Member Variables" />
+            <marker date="1576367639047" expanded="true" signature="654:1436" ph="Public Methods" />
+            <marker date="1576367639047" expanded="true" signature="753:1132" ph="{...}" />
+            <marker date="1576367639047" expanded="true" signature="1159:1420" ph="{...}" />
+            <marker date="1576367639047" expanded="true" signature="1194:1416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Framework/IAPController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="159" column="97" selection-start-line="159" selection-start-column="73" selection-end-line="159" selection-end-column="97" />
+          <folding>
+            <marker date="1576370432287" expanded="false" signature="6:186" ph="..." />
+            <marker date="1576370432287" expanded="true" signature="227:8358" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="334:8356" ph="{...}" />
+            <marker date="1576370432287" expanded="false" signature="340:534" ph="Classes" />
+            <marker date="1576370432287" expanded="true" signature="408:520" ph="{...}" />
+            <marker date="1576370432287" expanded="false" signature="538:1068" ph="Inspector Variables" />
+            <marker date="1576370432287" expanded="false" signature="1072:1273" ph="Member Variables" />
+            <marker date="1576370432287" expanded="false" signature="1277:3396" ph="Properties" />
+            <marker date="1576370432287" expanded="true" signature="1299:1383" ph="/// Returns true id IAP is enabled, false otherwise ... " />
+            <marker date="1576370432287" expanded="true" signature="1414:1567" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="1425:1563" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="1571:1638" ph="/// Gets the remove ads product id ... " />
+            <marker date="1576370432287" expanded="true" signature="1716:1847" ph="/// Callback this is invoked when a product is purchased, passes the product id that was purchased ... " />
+            <marker date="1576370432287" expanded="true" signature="1915:1986" ph="/// Returns true if IAP is initialized ... " />
+            <marker date="1576370432287" expanded="true" signature="2015:2156" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="2160:2246" ph="/// Gets a list of all product (including remove ads) ... " />
+            <marker date="1576370432287" expanded="true" signature="2283:2765" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="2294:2761" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="2421:2734" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="2769:2884" ph="/// String of non-consumable product ids that have been purchase seperated by tabs ... " />
+            <marker date="1576370432287" expanded="true" signature="2927:3085" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="3089:3185" ph="/// List of non-consumable product ids that have been purchased ... " />
+            <marker date="1576370432287" expanded="true" signature="3228:3382" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="3400:4275" ph="Unity Methods" />
+            <marker date="1576370432287" expanded="true" signature="3445:4261" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="4066:4200" ph="{...}" />
+            <marker date="1576370432287" expanded="false" signature="4279:5633" ph="Public Methods" />
+            <marker date="1576370432287" expanded="true" signature="4305:4478" ph="/// Returns true if the given product id has been purchased, only for non-consumable products, consumable product ... " />
+            <marker date="1576370432287" expanded="true" signature="4529:4588" ph="{...}" />
+            <marker date="1576370432287" expanded="false" signature="4592:5619" ph="IStoreListener" />
+            <marker date="1576370432287" expanded="true" signature="4719:4878" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="4955:5039" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="5125:5255" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="5330:5596" ph="{...}" />
+            <marker date="1576370432287" expanded="false" signature="5637:8353" ph="Private Methods" />
+            <marker date="1576370432287" expanded="true" signature="5711:6695" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="5763:5814" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="5989:6691" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="6740:7067" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="6766:7063" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="6998:7058" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="7080:7165" ph="/// Restores the purchases if platform is iOS or OSX ... " />
+            <marker date="1576370432287" expanded="true" signature="7199:7471" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="7336:7467" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="7539:8339" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="7563:7828" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="7726:7778" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="7934:7979" ph="{...}" />
+            <marker date="1576370432287" expanded="true" signature="7984:8168" ph="/* If something other than the remove ads product was purchased and anyPurchaseRemovesAds is true call ... */" />
+            <marker date="1576370432287" expanded="true" signature="8276:8335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/CategoryListItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <marker date="1576357566495" expanded="false" signature="6:100" ph="..." />
+            <marker date="1576357566495" expanded="true" signature="134:1272" ph="{...}" />
+            <marker date="1576357566495" expanded="true" signature="183:1270" ph="{...}" />
+            <marker date="1576357566495" expanded="false" signature="189:412" ph="Inspector Variables" />
+            <marker date="1576357566495" expanded="false" signature="416:486" ph="Member Variables" />
+            <marker date="1576357566495" expanded="true" signature="490:1267" ph="Public Methods" />
+            <marker date="1576357566495" expanded="true" signature="560:1036" ph="{...}" />
+            <marker date="1576357566495" expanded="true" signature="1061:1253" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenCategoryLevels.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <marker date="1576352224400" expanded="false" signature="6:44" ph="..." />
+            <marker date="1576352224400" expanded="true" signature="78:1535" ph="{...}" />
+            <marker date="1576352224400" expanded="true" signature="128:1533" ph="{...}" />
+            <marker date="1576352224400" expanded="false" signature="134:309" ph="Inspector Variables" />
+            <marker date="1576352224400" expanded="false" signature="315:400" ph="Member Variables" />
+            <marker date="1576352224400" expanded="true" signature="406:1530" ph="Public Methods" />
+            <marker date="1576352224400" expanded="true" signature="467:595" ph="{...}" />
+            <marker date="1576352224400" expanded="true" signature="644:1362" ph="{...}" />
+            <marker date="1576352224400" expanded="true" signature="896:1358" ph="{...}" />
+            <marker date="1576352224400" expanded="true" signature="1080:1156" ph="{...}" />
+            <marker date="1576352224400" expanded="true" signature="1395:1514" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Editor/GameManagerEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+          <folding>
+            <marker date="1538259273000" expanded="false" signature="6:97" ph="..." />
+            <marker date="1538259273000" expanded="true" signature="131:7366" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="211:7364" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="217:7361" ph="Methods" />
+            <marker date="1538259273000" expanded="true" signature="273:1284" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="997:1089" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="1152:1203" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="1320:4465" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="1627:2122" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="2058:2117" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="2379:4461" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="2672:4422" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="3156:3242" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="3413:4416" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="3771:4016" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="3920:4008" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="4537:4826" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="4903:6070" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="4982:6066" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="5243:6031" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="5701:5784" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="5910:6025" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="6135:6910" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="6497:6906" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="6805:6863" ph="{...}" />
+            <marker date="1538259273000" expanded="true" signature="6950:7347" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/Game/ProgressRing.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <marker date="1538259208000" expanded="false" signature="6:66" ph="..." />
+            <marker date="1538259208000" expanded="true" signature="100:1114" ph="{...}" />
+            <marker date="1538259208000" expanded="true" signature="145:1112" ph="{...}" />
+            <marker date="1538259208000" expanded="false" signature="151:346" ph="Inspector Variables" />
+            <marker date="1538259208000" expanded="false" signature="350:387" ph="Member Variables" />
+            <marker date="1538259208000" expanded="false" signature="391:422" ph="Properties" />
+            <marker date="1538259208000" expanded="false" signature="426:513" ph="Unity Methods" />
+            <marker date="1538259208000" expanded="true" signature="471:499" ph="{...}" />
+            <marker date="1538259208000" expanded="true" signature="517:1027" ph="Public Methods" />
+            <marker date="1538259208000" expanded="true" signature="581:1013" ph="{...}" />
+            <marker date="1538259208000" expanded="false" signature="1031:1069" ph="Protected Methods" />
+            <marker date="1538259208000" expanded="false" signature="1073:1109" ph="Private Methods" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenMain.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1424">
+          <caret line="108" column="82" selection-start-line="108" selection-start-column="64" selection-end-line="108" selection-end-column="82" />
+          <folding>
+            <marker date="1576352224345" expanded="false" signature="6:66" ph="..." />
+            <marker date="1576352224345" expanded="true" signature="100:3406" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="140:3404" ph="{...}" />
+            <marker date="1576352224345" expanded="false" signature="146:417" ph="Inspector Variables" />
+            <marker date="1576352224345" expanded="false" signature="421:536" ph="Member Variables" />
+            <marker date="1576352224345" expanded="true" signature="540:3401" ph="Public Methods" />
+            <marker date="1576352224345" expanded="true" signature="609:2964" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="880:1262" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="1087:1257" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="1546:2479" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="1663:2189" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="1799:1829" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="1891:2123" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="1965:2116" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="2156:2183" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="2315:2431" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="2487:2671" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="3005:3116" ph="{...}" />
+            <marker date="1576352224345" expanded="true" signature="3157:3387" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/WordGame/Scripts/UI/UIScreenController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1538259209000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538259209000" expanded="true" signature="112:5545" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="188:5543" ph="{...}" />
+            <marker date="1538259209000" expanded="false" signature="194:340" ph="Inspector Variables" />
+            <marker date="1538259209000" expanded="false" signature="344:816" ph="Member Variables" />
+            <marker date="1538259209000" expanded="false" signature="820:1227" ph="Unity Methods" />
+            <marker date="1538259209000" expanded="true" signature="865:1213" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="956:1121" ph="{...}" />
+            <marker date="1538259209000" expanded="false" signature="1231:2834" ph="Public Methods" />
+            <marker date="1538259209000" expanded="true" signature="1257:1844" ph="/// Shows the screen with the specified id. ... " />
+            <marker date="1538259209000" expanded="true" signature="2049:2453" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="2073:2095" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="2164:2449" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="2330:2444" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="2457:2542" ph="/// Hides the UI screen that was shown as an overlay ... " />
+            <marker date="1538259209000" expanded="true" signature="2656:2820" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="2769:2816" ph="{...}" />
+            <marker date="1538259209000" expanded="false" signature="2838:5540" ph="Private Methods" />
+            <marker date="1538259209000" expanded="true" signature="3006:3518" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="3035:3057" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="3407:3512" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="3471:3507" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="3650:4010" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="3679:3701" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="4191:5251" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="4304:4576" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="4471:4571" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="4584:4685" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="4746:5247" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="4938:5053" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="5062:5242" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="5296:5526" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="5345:5424" ph="{...}" />
+            <marker date="1538259209000" expanded="true" signature="5381:5419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "961303108560",
+    "firebase_url": "https://dota-word-game.firebaseio.com",
+    "project_id": "dota-word-game",
+    "storage_bucket": "dota-word-game.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961303108560:android:190897976f11fafbccb7d5",
+        "android_client_info": {
+          "package_name": "com.dmnte.dotawordgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961303108560-oq20q3ccuu2tldslk643pav5hfbl0rfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-7MOX0Gw7KDrmxcMjK6sn0TJyVtYS794"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961303108560-oq20q3ccuu2tldslk643pav5hfbl0rfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
