@@ -1,7 +1,6 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
-
 #if ADMOB
 using GoogleMobileAds;
 using GoogleMobileAds.Api;
