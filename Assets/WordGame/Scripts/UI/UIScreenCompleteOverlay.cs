@@ -14,18 +14,19 @@ namespace BizzyBeeGames.WordGame
 		[SerializeField] private Text		categoryNameText;
 		[SerializeField] private Text		categoryLevelText;
 		[SerializeField] private GameObject	plusOneHintText;
+        [SerializeField] private ProgressRing progressRing;
 
-		#endregion
+        #endregion
 
-		#region Public Methods
+        #region Public Methods
 
-		public override void OnShowing(object data)
+        public override void OnShowing(object data)
 		{
 			base.OnShowing(data);
 
 			CategoryInfo categoryInfo = GameManager.Instance.GetCategoryInfo(GameManager.Instance.ActiveCategory);
 
-			categoryIconImage.sprite	= categoryInfo.icon;
+			categoryIconImage.sprite	= GameSingleton.Instance.divisonActual;
 			categoryNameText.text		= categoryInfo.displayName;
 
 			if (GameManager.Instance.ActiveCategory == GameManager.dailyPuzzleId)
@@ -39,7 +40,23 @@ namespace BizzyBeeGames.WordGame
 			}
 
 			plusOneHintText.SetActive((bool)data);
-		}
+
+            int totalNumberOfLevels = 0;
+            int totalNumberOfCompletedLevels = 0;
+
+            for (int i = 0; i < GameManager.Instance.CategoryInfos.Count; i++)
+            {
+                CategoryInfo categoryInfos = GameManager.Instance.CategoryInfos[i];
+
+                // Only include levels that are not part of the paily puzzle category
+                if (categoryInfo.name != GameManager.dailyPuzzleId)
+                {
+                    totalNumberOfLevels += categoryInfo.levelInfos.Count;
+                    totalNumberOfCompletedLevels += GameManager.Instance.GetCompletedLevelCount(categoryInfos);
+                }
+            }
+            GameSingleton.Instance.porcentajecompletado = Mathf.RoundToInt((float)totalNumberOfCompletedLevels / (float)totalNumberOfLevels * 100f);
+        }
 
 		#endregion
 	}

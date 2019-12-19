@@ -15,18 +15,21 @@ namespace BizzyBeeGames.WordGame
 		[SerializeField] private Text			continueBtnBottomText;
 		[SerializeField] private Image			continueBtnImage;
 
-		#endregion
 
-		#region Member Variables
+        #endregion
 
-		private string	continueBtnCategory;
+        #region Member Variables
+
+        private string	continueBtnCategory;
 		private int		continueBtnLevelIndex;
 
-		#endregion
 
-		#region Public Methods
+        #endregion
 
-		public override void OnShowing(object data)
+        #region Public Methods
+
+
+        public override void OnShowing(object data)
 		{
 			base.OnShowing(data);
 
@@ -48,8 +51,14 @@ namespace BizzyBeeGames.WordGame
 
 			progressRing.SetProgress((float)totalNumberOfCompletedLevels / (float)totalNumberOfLevels);
 
-			// Set the Continue button to the active category
-			if (string.IsNullOrEmpty(GameManager.Instance.ActiveCategory) || GameManager.Instance.ActiveCategory == GameManager.dailyPuzzleId)
+            GameSingleton.Instance.porcentajecompletado = Mathf.RoundToInt((float)totalNumberOfCompletedLevels / (float)totalNumberOfLevels * 100f);
+
+            GameSingleton.Instance.tnol = totalNumberOfLevels;
+            GameSingleton.Instance.tncl = totalNumberOfCompletedLevels;
+            
+
+            // Set the Continue button to the active category
+            if (string.IsNullOrEmpty(GameManager.Instance.ActiveCategory) || GameManager.Instance.ActiveCategory == GameManager.dailyPuzzleId)
 			{
 				bool foundUncompletedLevel = false;
 
@@ -107,17 +116,21 @@ namespace BizzyBeeGames.WordGame
 		{
 			// Show the main screen
 			UIScreenController.Instance.Show(UIScreenController.CategoriesScreenId);
+            GameSingleton.Instance.porcentajecompletado = Mathf.RoundToInt((float)GameSingleton.Instance.tncl / (float)GameSingleton.Instance.tnol * 100f);
             RateGame.Instance.ShowRatePopup();
 		}
 
 		public void OnContinueButtonClicked()
 		{
+
 			// Start the level the button is tied to
 			GameManager.Instance.StartLevel(continueBtnCategory, continueBtnLevelIndex);
 
 			// Show the game screen
 			UIScreenController.Instance.Show(UIScreenController.GameScreenId);
-		}
+
+            
+        }
 
 		#endregion
 	}

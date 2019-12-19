@@ -10,7 +10,7 @@ namespace BizzyBeeGames.WordGame
 
 		[SerializeField] private RectTransform	firstHalf;
 		[SerializeField] private RectTransform	secondHalf;
-		[SerializeField] private Text 			percentText;
+		[SerializeField] public Text 			percentText;
 
 		#endregion
 
@@ -27,11 +27,11 @@ namespace BizzyBeeGames.WordGame
 			SetProgress(0f);
 		}
 
-		#endregion
+        #endregion
 
-		#region Public Methods
+        #region Public Methods
 
-		public void SetProgress(float percent)
+        public void SetProgress(float percent)
 		{
 			percentText.text = Mathf.RoundToInt(percent * 100f) + "%";
 
@@ -40,14 +40,15 @@ namespace BizzyBeeGames.WordGame
 
 			firstHalf.localEulerAngles	= new Vector3(firstHalf.localEulerAngles.x, firstHalf.localEulerAngles.y, z1);
 			secondHalf.localEulerAngles	= new Vector3(secondHalf.localEulerAngles.x, secondHalf.localEulerAngles.y, z2);
+
 		}
 
-		#endregion
+        #endregion
 
-		#region Protected Methods
-		#endregion
+        #region Protected Methods
+        #endregion
 
-		#region Private Methods
-		#endregion
-	}
+        #region Private Methods
+        #endregion
+    }
 }
