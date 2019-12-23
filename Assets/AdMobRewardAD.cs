@@ -24,6 +24,8 @@ namespace BizzyBeeGames.WordGame
             rewardedVideo.OnAdRewarded += HandleRewardBasedVideoRewarded;
             rewardedVideo.OnAdClosed += HandleRewardBasedVideoClosed;
             RequestRewardVideo();
+            AdRequest request = new AdRequest.Builder().Build();
+            rewardedVideo.LoadAd(request, androidRewardedID);
         }
 
         public void ShowRewardedVideo()

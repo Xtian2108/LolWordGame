@@ -61,7 +61,12 @@ namespace BizzyBeeGames.WordGame
 				// Show the game screen
 				UIScreenController.Instance.Show(UIScreenController.GameScreenId);
 			}
-		}
+
+            if (GameSingleton.Instance.completos == 0)
+            {
+                StartCoroutine(GameSingleton.Instance.MostrarTutorial());
+            }
+        }
 		
 		#endregion
 	}

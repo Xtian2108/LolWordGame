@@ -51,11 +51,10 @@ namespace BizzyBeeGames.WordGame
 
 			progressRing.SetProgress((float)totalNumberOfCompletedLevels / (float)totalNumberOfLevels);
 
-            GameSingleton.Instance.porcentajecompletado = Mathf.RoundToInt((float)totalNumberOfCompletedLevels / (float)totalNumberOfLevels * 100f);
+            GameSingleton.Instance.totales = totalNumberOfLevels;
+            GameSingleton.Instance.completos = totalNumberOfCompletedLevels;
 
-            GameSingleton.Instance.tnol = totalNumberOfLevels;
-            GameSingleton.Instance.tncl = totalNumberOfCompletedLevels;
-            
+            //GameSingleton.Instance.porcentajecompletado = Mathf.RoundToInt((float)totalNumberOfCompletedLevels / (float)totalNumberOfLevels * 100f);
 
             // Set the Continue button to the active category
             if (string.IsNullOrEmpty(GameManager.Instance.ActiveCategory) || GameManager.Instance.ActiveCategory == GameManager.dailyPuzzleId)
@@ -116,8 +115,8 @@ namespace BizzyBeeGames.WordGame
 		{
 			// Show the main screen
 			UIScreenController.Instance.Show(UIScreenController.CategoriesScreenId);
-            GameSingleton.Instance.porcentajecompletado = Mathf.RoundToInt((float)GameSingleton.Instance.tncl / (float)GameSingleton.Instance.tnol * 100f);
-            RateGame.Instance.ShowRatePopup();
+            //GameSingleton.Instance.porcentajecompletado = Mathf.RoundToInt((float)GameSingleton.Instance.tncl / (float)GameSingleton.Instance.tnol * 100f);
+            //RateGame.Instance.ShowRatePopup();
 		}
 
 		public void OnContinueButtonClicked()
